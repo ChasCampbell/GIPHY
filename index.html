@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!-- Pseudo=code is at bottom. -->
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIPHY</title>
+    <!--<link rel="stylesheet" href="assets/css/reset.css" type="text/css" />-->
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <h1>Check Out These TV Personalities</h1>
+
+        <div class="buttons">
+            <!--Build buttons, one for each personality, and load into this div.-->
+        </div>
+    </div>
+
+    <div>
+        <!-- Provide an input field to let the user add buttons. -->
+        <p id="instruct">
+            Want to check out someone else?
+            <br> Enter their name and click below to add a button.
+        </p>
+        <form id="userInput">
+            <input id=userEntry type="text" name="entry" action="personalityName">
+            <button class="allbtns" id="userButton" type="submit" )>Submit the Name</button>
+        </form>
+
+    </div>
+
+    <div class="pictureSpace">
+        <!-- Space for pictures. -->
+
+    </div>
+
+    <script src="assets/javascript/javascript.js"></script>
+
+</body>
+
+</html>
+<!--
+        HTML:
+        Provide a div for:
+            ten buttons,
+            user to add a button, with an input form,
+            space to display pictures.
+        
+        Create an array of ten TV personalities' names.
+        Build a url variable.
+             
+        Build 10 buttons.
+            Use a for loop.
+            Assign each to a personality.
+        Populate the buttons into the html.
+        Create an ajax request to GET a picture of any selected person.
+            Extract 10 still photos urls,
+            a url for an animated version of each photo,
+            and the rating of the photo.
+        Empty the space.
+        Populate the stills to the page, one at a time.
+        Allow a click on any photo to switch it to animated.
+        Any subsequent click on the same photo will switch the state
+            between animated and still.
+        
+        -->

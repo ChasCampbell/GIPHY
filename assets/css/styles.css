@@ -1,0 +1,20 @@
+.allbtns {
+    width: 120px;
+    color: blue;
+}
+
+#userEntry {
+    display: inline-block;
+    color: blue;
+    height: 16px;
+    width: 30ch;
+    font-size: 12px;
+}
+
+#userButton {
+    height: 24px;
+}
+
+#divId* {
+    float: left;
+}
